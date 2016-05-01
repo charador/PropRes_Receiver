@@ -453,8 +453,8 @@ int Analog_Output_Write_Property(
                    object. */
                 if (value.type.Real >= 0 && value.type.Real <= 100.0) {
                     real_value = Analog_Output_Present_Value(wp_data->object_instance);
-                    diff = abs(value.type.Real - real_value);
-                    result = (int) (diff);
+                    diff = abs(value.type.Real - real_value); 
+                    result = (int) (diff);// linear or quadratic: (int)pow(diff, 2)
                     fprintf(stderr, "current value: %.2f, target value is :%.2f, Diff is %.2f.\n", (real_value, value.type.Real, diff));
                     if (copyWPdata(wp_data)) {
                         fprintf(stderr, "Number of challenge packets needed is %d.\n", result);
