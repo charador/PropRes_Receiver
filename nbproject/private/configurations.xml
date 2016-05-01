@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bin">
+      </df>
+      <df name="demo">
+        <df name="dcc">
+          <in>main.c</in>
+        </df>
+        <df name="epics">
+          <in>bacepics.h</in>
+          <in>main.c</in>
+        </df>
+        <df name="gateway">
+          <in>gateway.h</in>
+          <in>main.c</in>
+        </df>
+        <df name="handler">
+          <in>dlenv.c</in>
+          <in>h_alarm_ack.c</in>
+          <in>h_arf.c</in>
+          <in>h_arf_a.c</in>
+          <in>h_awf.c</in>
+          <in>h_ccov.c</in>
+          <in>h_cov.c</in>
+          <in>h_dcc.c</in>
+          <in>h_gas_a.c</in>
+          <in>h_get_alarm_sum.c</in>
+          <in>h_getevent.c</in>
+          <in>h_iam.c</in>
+          <in>h_ihave.c</in>
+          <in>h_lso.c</in>
+          <in>h_npdu.c</in>
+          <in>h_pt.c</in>
+          <in>h_pt_a.c</in>
+          <in>h_rd.c</in>
+          <in>h_routed_npdu.c</in>
+          <in>h_rp.c</in>
+          <in>h_rp_a.c</in>
+          <in>h_rpm.c</in>
+          <in>h_rpm_a.c</in>
+          <in>h_rr.c</in>
+          <in>h_rr_a.c</in>
+          <in>h_ts.c</in>
+          <in>h_ucov.c</in>
+          <in>h_upt.c</in>
+          <in>h_whohas.c</in>
+          <in>h_whois.c</in>
+          <in>h_wp.c</in>
+          <in>h_wpm.c</in>
+          <in>noserv.c</in>
+          <in>objects.c</in>
+          <in>s_ack_alarm.c</in>
+          <in>s_arfs.c</in>
+          <in>s_awfs.c</in>
+          <in>s_cevent.c</in>
+          <in>s_cov.c</in>
+          <in>s_dcc.c</in>
+          <in>s_iam.c</in>
+          <in>s_ihave.c</in>
+          <in>s_lso.c</in>
+          <in>s_ptransfer.c</in>
+          <in>s_rd.c</in>
+          <in>s_readrange.c</in>
+          <in>s_router.c</in>
+          <in>s_rp.c</in>
+          <in>s_rpm.c</in>
+          <in>s_ts.c</in>
+          <in>s_uevent.c</in>
+          <in>s_upt.c</in>
+          <in>s_whohas.c</in>
+          <in>s_whois.c</in>
+          <in>s_wp.c</in>
+          <in>s_wpm.c</in>
+          <in>txbuf.c</in>
+        </df>
+        <df name="iamrouter">
+          <in>main.c</in>
+        </df>
+        <df name="initrouter">
+          <in>main.c</in>
+        </df>
+        <df name="mstpcap">
+          <in>main.c</in>
+        </df>
+        <df name="mstpcrc">
+          <in>main.c</in>
+        </df>
+        <df name="object">
+          <in>ai.c</in>
+          <in>ai.h</in>
+          <in>ao.c</in>
+          <in>ao.h</in>
+          <in>av.c</in>
+          <in>av.h</in>
+          <in>bacfile.c</in>
+          <in>bacfile.h</in>
+          <in>bi.c</in>
+          <in>bi.h</in>
+          <in>bo.c</in>
+          <in>bo.h</in>
+          <in>bv.c</in>
+          <in>bv.h</in>
+          <in>csv.c</in>
+          <in>csv.h</in>
+          <in>device-client.c</in>
+          <in>device.c</in>
+          <in>device.h</in>
+          <in>gw_device.c</in>
+          <in>lc.c</in>
+          <in>lc.h</in>
+          <in>lo.c</in>
+          <in>lo.h</in>
+          <in>lsp.c</in>
+          <in>lsp.h</in>
+          <in>ms-input.c</in>
+          <in>ms-input.h</in>
+          <in>mso.c</in>
+          <in>mso.h</in>
+          <in>msv.c</in>
+          <in>msv.h</in>
+          <in>nc.c</in>
+          <in>nc.h</in>
+          <in>osv.c</in>
+          <in>osv.h</in>
+          <in>piv.c</in>
+          <in>piv.h</in>
+          <in>schedule.c</in>
+          <in>schedule.h</in>
+          <in>trendlog.c</in>
+          <in>trendlog.h</in>
+        </df>
+        <df name="perl">
+          <df name=".Inline">
+          </df>
+          <df name="Documentation">
+          </df>
+          <in>perl_bindings.c</in>
+        </df>
+        <df name="piface">
+          <in>device.c</in>
+          <in>main.c</in>
+        </df>
+        <df name="ptransfer">
+          <in>main.c</in>
+        </df>
+        <df name="readbdt">
+          <in>main.c</in>
+        </df>
+        <df name="readfile">
+          <in>main.c</in>
+        </df>
+        <df name="readprop">
+          <in>main.c</in>
+        </df>
+        <df name="readpropm">
+          <in>main.c</in>
+        </df>
+        <df name="readrange">
+          <df name="readrange">
+          </df>
+          <in>main.c</in>
+        </df>
+        <df name="reinit">
+          <in>main.c</in>
+        </df>
+        <df name="router">
+          <in>ipmodule.c</in>
+          <in>ipmodule.h</in>
+          <in>main.c</in>
+          <in>msgqueue.c</in>
+          <in>msgqueue.h</in>
+          <in>mstpmodule.c</in>
+          <in>mstpmodule.h</in>
+          <in>network_layer.c</in>
+          <in>network_layer.h</in>
+          <in>portthread.c</in>
+          <in>portthread.h</in>
+        </df>
+        <df name="scov">
+          <in>main.c</in>
+        </df>
+        <df name="server">
+          <in>main.c</in>
+          <in>server.h</in>
+        </df>
+        <df name="timesync">
+          <in>main.c</in>
+        </df>
+        <df name="ucov">
+          <in>main.c</in>
+        </df>
+        <df name="uptransfer">
+          <in>main.c</in>
+        </df>
+        <df name="whohas">
+          <in>main.c</in>
+        </df>
+        <df name="whois">
+          <in>main.c</in>
+        </df>
+        <df name="whoisrouter">
+          <in>main.c</in>
+        </df>
+        <df name="writefile">
+          <in>main.c</in>
+        </df>
+        <df name="writeprop">
+          <in>main.c</in>
+        </df>
+      </df>
+      <df name="doc">
+        <df name="htdocs">
+          <df name="images">
+          </df>
+        </df>
+        <df name="man">
+        </df>
+        <df name="output">
+          <df name="html">
+          </df>
+        </df>
+      </df>
+      <df name="include">
+        <in>abort.h</in>
+        <in>address.h</in>
+        <in>alarm_ack.h</in>
+        <in>apdu.h</in>
+        <in>arcnet.h</in>
+        <in>arf.h</in>
+        <in>awf.h</in>
+        <in>bacaddr.h</in>
+        <in>bacapp.h</in>
+        <in>bacdcode.h</in>
+        <in>bacdef.h</in>
+        <in>bacdevobjpropref.h</in>
+        <in>bacenum.h</in>
+        <in>bacerror.h</in>
+        <in>bacint.h</in>
+        <in>bacnet.h</in>
+        <in>bacprop.h</in>
+        <in>bacpropstates.h</in>
+        <in>bacreal.h</in>
+        <in>bacstr.h</in>
+        <in>bactext.h</in>
+        <in>bactimevalue.h</in>
+        <in>bigend.h</in>
+        <in>bip.h</in>
+        <in>bits.h</in>
+        <in>bvlc.h</in>
+        <in>bytes.h</in>
+        <in>client.h</in>
+        <in>config.h</in>
+        <in>cov.h</in>
+        <in>crc.h</in>
+        <in>datalink.h</in>
+        <in>datetime.h</in>
+        <in>dcc.h</in>
+        <in>debug.h</in>
+        <in>dlenv.h</in>
+        <in>dlmstp.h</in>
+        <in>ethernet.h</in>
+        <in>event.h</in>
+        <in>fifo.h</in>
+        <in>filename.h</in>
+        <in>get_alarm_sum.h</in>
+        <in>getevent.h</in>
+        <in>handlers.h</in>
+        <in>iam.h</in>
+        <in>ihave.h</in>
+        <in>indtext.h</in>
+        <in>key.h</in>
+        <in>keylist.h</in>
+        <in>lso.h</in>
+        <in>memcopy.h</in>
+        <in>mstp.h</in>
+        <in>mstpdef.h</in>
+        <in>mstptext.h</in>
+        <in>mydata.h</in>
+        <in>npdu.h</in>
+        <in>objects.h</in>
+        <in>proplist.h</in>
+        <in>ptransfer.h</in>
+        <in>rd.h</in>
+        <in>readrange.h</in>
+        <in>reject.h</in>
+        <in>ringbuf.h</in>
+        <in>rp.h</in>
+        <in>rpm.h</in>
+        <in>sbuf.h</in>
+        <in>timestamp.h</in>
+        <in>timesync.h</in>
+        <in>tsm.h</in>
+        <in>txbuf.h</in>
+        <in>version.h</in>
+        <in>whohas.h</in>
+        <in>whois.h</in>
+        <in>wp.h</in>
+        <in>wpm.h</in>
+      </df>
+      <df name="lib">
+        <in>main.cpp</in>
+        <in>main.h</in>
+      </df>
+      <df name="license">
+      </df>
+      <df name="obj">
+      </df>
+      <df name="ports">
+        <df name="arm7">
+          <in>_stdint.h</in>
+          <in>bip.c</in>
+          <in>net.h</in>
+          <in>stdbool.h</in>
+        </df>
+        <df name="at91sam7s">
+          <in>ai.c</in>
+          <in>at91sam7s256.h</in>
+          <in>av.c</in>
+          <in>bi.c</in>
+          <in>blinker.c</in>
+          <in>board.h</in>
+          <in>bv.c</in>
+          <in>crt.s</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>init.c</in>
+          <in>isr.c</in>
+          <in>isr.h</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="atmega168">
+          <in>ai.c</in>
+          <in>ai.h</in>
+          <in>apdu.c</in>
+          <in>av.c</in>
+          <in>av.h</in>
+          <in>avr035.h</in>
+          <in>bv.c</in>
+          <in>bv.h</in>
+          <in>device.c</in>
+          <in>device.h</in>
+          <in>dlmstp.c</in>
+          <in>h_rp.c</in>
+          <in>h_whois.c</in>
+          <in>h_wp.c</in>
+          <in>hardware.h</in>
+          <in>iar2gcc.h</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>stack.c</in>
+          <in>stack.h</in>
+          <in>stdbool.h</in>
+          <in>stdint.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="atmega8">
+          <in>ai.c</in>
+          <in>apdu.c</in>
+          <in>av.c</in>
+          <in>avr035.h</in>
+          <in>bv.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>h_rp.c</in>
+          <in>hardware.h</in>
+          <in>iar2gcc.h</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>stdbool.h</in>
+          <in>stdint.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="bdk-atxx4-mstp">
+          <df name="avrosp">
+            <in>AVRBootloader.cpp</in>
+            <in>AVRBootloader.hpp</in>
+            <in>AVRDevice.cpp</in>
+            <in>AVRDevice.hpp</in>
+            <in>AVRInSystemProg.cpp</in>
+            <in>AVRInSystemProg.hpp</in>
+            <in>AVRProgrammer.cpp</in>
+            <in>AVRProgrammer.hpp</in>
+            <in>CommChannel.cpp</in>
+            <in>CommChannel.hpp</in>
+            <in>ErrorMsg.cpp</in>
+            <in>ErrorMsg.hpp</in>
+            <in>HEXParser.cpp</in>
+            <in>HEXParser.hpp</in>
+            <in>JobInfo.cpp</in>
+            <in>JobInfo.hpp</in>
+            <in>SerialPort.cpp</in>
+            <in>SerialPort.hpp</in>
+            <in>Utility.cpp</in>
+            <in>Utility.hpp</in>
+            <in>XMLParser.cpp</in>
+            <in>XMLParser.hpp</in>
+            <in>main.cpp</in>
+          </df>
+          <df name="bootloader">
+            <in>defines.h</in>
+            <in>flash.h</in>
+            <in>main.c</in>
+            <in>serial.c</in>
+            <in>serial.h</in>
+          </df>
+          <df name="crossworks">
+            <in>stdbool.h</in>
+          </df>
+          <in>adc-block.c</in>
+          <in>adc.c</in>
+          <in>adc.h</in>
+          <in>ai.c</in>
+          <in>av.c</in>
+          <in>bacnet.c</in>
+          <in>bacnet.h</in>
+          <in>bi.c</in>
+          <in>bname.c</in>
+          <in>bname.h</in>
+          <in>bo.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>eeprom.c</in>
+          <in>eeprom.h</in>
+          <in>fuses.c</in>
+          <in>hardware.h</in>
+          <in>iar2gcc.h</in>
+          <in>init.c</in>
+          <in>init.h</in>
+          <in>input.c</in>
+          <in>input.h</in>
+          <in>led.c</in>
+          <in>led.h</in>
+          <in>main.c</in>
+          <in>nvdata.h</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>seeprom.c</in>
+          <in>seeprom.h</in>
+          <in>serial.c</in>
+          <in>serial.h</in>
+          <in>stack.c</in>
+          <in>stack.h</in>
+          <in>test.c</in>
+          <in>test.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+          <in>timer2.c</in>
+          <in>watchdog.c</in>
+          <in>watchdog.h</in>
+        </df>
+        <df name="bsd">
+          <in>bip-init.c</in>
+          <in>main.c</in>
+          <in>net.h</in>
+          <in>stdbool.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="dos">
+          <in>dlmstp.c</in>
+          <in>extkword.h</in>
+          <in>main.c</in>
+          <in>mk_fp.h</in>
+          <in>pchwio.c</in>
+          <in>pchwio.h</in>
+          <in>queue.c</in>
+          <in>queue.h</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>serial.c</in>
+          <in>serial.h</in>
+          <in>stdbool.h</in>
+          <in>stdint.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="linux">
+          <in>arcnet.c</in>
+          <in>bip-init.c</in>
+          <in>dlmstp.c</in>
+          <in>dlmstp_linux.c</in>
+          <in>dlmstp_linux.h</in>
+          <in>ethernet.c</in>
+          <in>mstpsnap.c</in>
+          <in>net.h</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>rx_fsm.c</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="lwip">
+          <in>bip.c</in>
+          <in>net.h</in>
+        </df>
+        <df name="pic18f6720">
+          <df name="BACnet-Server.X">
+          </df>
+          <in>ai.c</in>
+          <in>apdu.c</in>
+          <in>av.c</in>
+          <in>bi.c</in>
+          <in>bv.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>dlmstp.h</in>
+          <in>hardware.h</in>
+          <in>isr.c</in>
+          <in>main.c</in>
+          <in>mstp.c</in>
+          <in>mstp.h</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>stdbool.h</in>
+          <in>stdint.h</in>
+        </df>
+        <df name="rtos32">
+          <in>bip-init.c</in>
+          <in>dlmstp.c</in>
+          <in>ethernet.c</in>
+          <in>init.c</in>
+          <in>main.c</in>
+          <in>mstp.c</in>
+          <in>mstp.h</in>
+          <in>net.h</in>
+          <in>netcfg.h</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>stdbool.h</in>
+          <in>stdint.h</in>
+        </df>
+        <df name="rx62n">
+          <in>bacnet.c</in>
+          <in>bacnet.h</in>
+          <in>bo.c</in>
+          <in>device.c</in>
+          <in>ethernet.c</in>
+          <in>hardware.h</in>
+          <in>led.c</in>
+          <in>led.h</in>
+          <in>main.c</in>
+          <in>timer-hdw.c</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+        <df name="stm32f10x">
+          <df name="CMSIS">
+            <df name="arm">
+              <in>startup_stm32f10x_cl.s</in>
+              <in>startup_stm32f10x_hd.s</in>
+              <in>startup_stm32f10x_hd_vl.s</in>
+              <in>startup_stm32f10x_ld.s</in>
+              <in>startup_stm32f10x_ld_vl.s</in>
+              <in>startup_stm32f10x_md.s</in>
+              <in>startup_stm32f10x_md_vl.s</in>
+              <in>startup_stm32f10x_xl.s</in>
+            </df>
+            <df name="gcc_ride7">
+              <in>startup_stm32f10x_cl.s</in>
+              <in>startup_stm32f10x_hd.s</in>
+              <in>startup_stm32f10x_hd_vl.s</in>
+              <in>startup_stm32f10x_ld.s</in>
+              <in>startup_stm32f10x_ld_vl.s</in>
+              <in>startup_stm32f10x_md.s</in>
+              <in>startup_stm32f10x_md_vl.s</in>
+              <in>startup_stm32f10x_xl.s</in>
+            </df>
+            <df name="iar">
+              <in>startup_stm32f10x_cl.s</in>
+              <in>startup_stm32f10x_hd.s</in>
+              <in>startup_stm32f10x_hd_vl.s</in>
+              <in>startup_stm32f10x_ld.s</in>
+              <in>startup_stm32f10x_ld_vl.s</in>
+              <in>startup_stm32f10x_md.s</in>
+              <in>startup_stm32f10x_md_vl.s</in>
+              <in>startup_stm32f10x_xl.s</in>
+            </df>
+            <df name="TrueSTUDIO">
+              <in>startup_stm32f10x_cl.s</in>
+              <in>startup_stm32f10x_hd.s</in>
+              <in>startup_stm32f10x_hd_vl.s</in>
+              <in>startup_stm32f10x_ld.s</in>
+              <in>startup_stm32f10x_ld_vl.s</in>
+              <in>startup_stm32f10x_md.s</in>
+              <in>startup_stm32f10x_md_vl.s</in>
+              <in>startup_stm32f10x_xl.s</in>
+            </df>
+            <in>core_cm3.c</in>
+            <in>core_cm3.h</in>
+            <in>stm32f10x.h</in>
+            <in>system_stm32f10x.h</in>
+          </df>
+          <df name="drivers">
+            <df name="inc">
+              <in>stm32f10x_adc.h</in>
+              <in>stm32f10x_bkp.h</in>
+              <in>stm32f10x_can.h</in>
+              <in>stm32f10x_cec.h</in>
+              <in>stm32f10x_crc.h</in>
+              <in>stm32f10x_dac.h</in>
+              <in>stm32f10x_dbgmcu.h</in>
+              <in>stm32f10x_dma.h</in>
+              <in>stm32f10x_exti.h</in>
+              <in>stm32f10x_flash.h</in>
+              <in>stm32f10x_fsmc.h</in>
+              <in>stm32f10x_gpio.h</in>
+              <in>stm32f10x_i2c.h</in>
+              <in>stm32f10x_iwdg.h</in>
+              <in>stm32f10x_misc.h</in>
+              <in>stm32f10x_pwr.h</in>
+              <in>stm32f10x_rcc.h</in>
+              <in>stm32f10x_rtc.h</in>
+              <in>stm32f10x_sdio.h</in>
+              <in>stm32f10x_spi.h</in>
+              <in>stm32f10x_tim.h</in>
+              <in>stm32f10x_usart.h</in>
+              <in>stm32f10x_wwdg.h</in>
+            </df>
+            <df name="src">
+              <in>stm32f10x_adc.c</in>
+              <in>stm32f10x_bkp.c</in>
+              <in>stm32f10x_can.c</in>
+              <in>stm32f10x_cec.c</in>
+              <in>stm32f10x_crc.c</in>
+              <in>stm32f10x_dac.c</in>
+              <in>stm32f10x_dbgmcu.c</in>
+              <in>stm32f10x_dma.c</in>
+              <in>stm32f10x_exti.c</in>
+              <in>stm32f10x_flash.c</in>
+              <in>stm32f10x_fsmc.c</in>
+              <in>stm32f10x_gpio.c</in>
+              <in>stm32f10x_i2c.c</in>
+              <in>stm32f10x_iwdg.c</in>
+              <in>stm32f10x_misc.c</in>
+              <in>stm32f10x_pwr.c</in>
+              <in>stm32f10x_rcc.c</in>
+              <in>stm32f10x_rtc.c</in>
+              <in>stm32f10x_sdio.c</in>
+              <in>stm32f10x_spi.c</in>
+              <in>stm32f10x_tim.c</in>
+              <in>stm32f10x_usart.c</in>
+              <in>stm32f10x_wwdg.c</in>
+            </df>
+          </df>
+          <in>automac.c</in>
+          <in>automac.h</in>
+          <in>bacnet.c</in>
+          <in>bacnet.h</in>
+          <in>bo.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>hardware.h</in>
+          <in>led.c</in>
+          <in>led.h</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>stm32f10x_conf.h</in>
+          <in>stm32f10x_it.c</in>
+          <in>stm32f10x_it.h</in>
+          <in>system_stm32f10x.c</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+          <in>timer_sys.c</in>
+        </df>
+        <df name="vrs51c1000">
+        </df>
+        <df name="win32">
+          <df name="bacnet">
+          </df>
+          <df name="Microsoft Visual Studio 2005">
+            <df name="BACnet Object Definitions">
+            </df>
+            <df name="BACnet Stack Library">
+            </df>
+            <df name="Server">
+            </df>
+            <df name="Who-Is">
+            </df>
+          </df>
+          <df name="Microsoft Visual Studio 2008">
+            <df name="BACnet Object Definitions">
+            </df>
+            <df name="BACnet Stack Library">
+            </df>
+            <df name="epics">
+            </df>
+            <df name="gateway">
+            </df>
+            <df name="mstpcap">
+            </df>
+            <df name="Server">
+            </df>
+            <df name="Who-Is">
+            </df>
+          </df>
+          <df name="Microsoft Visual Studio 2010">
+            <df name="bacepics">
+            </df>
+            <df name="BACnet Handler Library">
+            </df>
+            <df name="BACnet Object Definitions">
+            </df>
+            <df name="BACnet Stack Library">
+            </df>
+            <df name="bacrp">
+            </df>
+            <df name="bacwir">
+            </df>
+            <df name="dcc">
+            </df>
+            <df name="Server">
+            </df>
+            <df name="Who-Is">
+            </df>
+            <df name="writeprop">
+            </df>
+          </df>
+          <df name="Microsoft Visual Studio 2015">
+            <df name="BACnet_Handler_Library">
+            </df>
+            <df name="BACnet_Object_Definitions">
+            </df>
+          </df>
+          <in>bip-init.c</in>
+          <in>dlmstp-mm.c</in>
+          <in>dlmstp.c</in>
+          <in>ethernet.c</in>
+          <in>main.c</in>
+          <in>net.h</in>
+          <in>rs485.c</in>
+          <in>rs485.h</in>
+          <in>rx_fsm.c</in>
+          <in>stdbool.h</in>
+          <in>stdint.h</in>
+          <in>timer.c</in>
+          <in>timer.h</in>
+        </df>
+      </df>
+      <df name="src">
+        <in>abort.c</in>
+        <in>address.c</in>
+        <in>alarm_ack.c</in>
+        <in>apdu.c</in>
+        <in>arf.c</in>
+        <in>awf.c</in>
+        <in>bacaddr.c</in>
+        <in>bacapp.c</in>
+        <in>bacdcode.c</in>
+        <in>bacdevobjpropref.c</in>
+        <in>bacerror.c</in>
+        <in>bacint.c</in>
+        <in>bacprop.c</in>
+        <in>bacpropstates.c</in>
+        <in>bacreal.c</in>
+        <in>bacstr.c</in>
+        <in>bactext.c</in>
+        <in>bactimevalue.c</in>
+        <in>bigend.c</in>
+        <in>bip.c</in>
+        <in>bvlc.c</in>
+        <in>cov.c</in>
+        <in>crc.c</in>
+        <in>datalink.c</in>
+        <in>datetime.c</in>
+        <in>dcc.c</in>
+        <in>debug.c</in>
+        <in>event.c</in>
+        <in>fifo.c</in>
+        <in>filename.c</in>
+        <in>get_alarm_sum.c</in>
+        <in>getevent.c</in>
+        <in>iam.c</in>
+        <in>ihave.c</in>
+        <in>indtext.c</in>
+        <in>key.c</in>
+        <in>keylist.c</in>
+        <in>lso.c</in>
+        <in>memcopy.c</in>
+        <in>mstp.c</in>
+        <in>mstptext.c</in>
+        <in>npdu.c</in>
+        <in>proplist.c</in>
+        <in>ptransfer.c</in>
+        <in>rd.c</in>
+        <in>readrange.c</in>
+        <in>reject.c</in>
+        <in>ringbuf.c</in>
+        <in>rp.c</in>
+        <in>rpm.c</in>
+        <in>sbuf.c</in>
+        <in>timestamp.c</in>
+        <in>timesync.c</in>
+        <in>tsm.c</in>
+        <in>version.c</in>
+        <in>whohas.c</in>
+        <in>whois.c</in>
+        <in>wp.c</in>
+        <in>wpm.c</in>
+      </df>
+      <df name="test">
+        <in>ctest.c</in>
+        <in>ctest.h</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

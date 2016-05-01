@@ -1,0 +1,4187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="demo">
+        <df name="dcc">
+          <in>main.c</in>
+        </df>
+        <df name="epics">
+          <in>main.c</in>
+        </df>
+        <df name="gateway">
+          <in>main.c</in>
+        </df>
+        <df name="handler">
+          <in>dlenv.c</in>
+          <in>h_alarm_ack.c</in>
+          <in>h_arf.c</in>
+          <in>h_arf_a.c</in>
+          <in>h_awf.c</in>
+          <in>h_ccov.c</in>
+          <in>h_cov.c</in>
+          <in>h_dcc.c</in>
+          <in>h_gas_a.c</in>
+          <in>h_get_alarm_sum.c</in>
+          <in>h_getevent.c</in>
+          <in>h_iam.c</in>
+          <in>h_ihave.c</in>
+          <in>h_lso.c</in>
+          <in>h_npdu.c</in>
+          <in>h_pt.c</in>
+          <in>h_pt_a.c</in>
+          <in>h_rd.c</in>
+          <in>h_routed_npdu.c</in>
+          <in>h_rp.c</in>
+          <in>h_rp_a.c</in>
+          <in>h_rpm.c</in>
+          <in>h_rpm_a.c</in>
+          <in>h_rr.c</in>
+          <in>h_rr_a.c</in>
+          <in>h_ts.c</in>
+          <in>h_ucov.c</in>
+          <in>h_upt.c</in>
+          <in>h_whohas.c</in>
+          <in>h_whois.c</in>
+          <in>h_wp.c</in>
+          <in>h_wpm.c</in>
+          <in>noserv.c</in>
+          <in>objects.c</in>
+          <in>s_ack_alarm.c</in>
+          <in>s_arfs.c</in>
+          <in>s_awfs.c</in>
+          <in>s_cevent.c</in>
+          <in>s_cov.c</in>
+          <in>s_dcc.c</in>
+          <in>s_iam.c</in>
+          <in>s_ihave.c</in>
+          <in>s_lso.c</in>
+          <in>s_ptransfer.c</in>
+          <in>s_rd.c</in>
+          <in>s_readrange.c</in>
+          <in>s_router.c</in>
+          <in>s_rp.c</in>
+          <in>s_rpm.c</in>
+          <in>s_ts.c</in>
+          <in>s_uevent.c</in>
+          <in>s_upt.c</in>
+          <in>s_whohas.c</in>
+          <in>s_whois.c</in>
+          <in>s_wp.c</in>
+          <in>s_wpm.c</in>
+          <in>txbuf.c</in>
+        </df>
+        <df name="iamrouter">
+          <in>main.c</in>
+        </df>
+        <df name="initrouter">
+          <in>main.c</in>
+        </df>
+        <df name="mstpcap">
+          <in>main.c</in>
+        </df>
+        <df name="mstpcrc">
+          <in>main.c</in>
+        </df>
+        <df name="object">
+          <in>ai.c</in>
+          <in>ao.c</in>
+          <in>av.c</in>
+          <in>bacfile.c</in>
+          <in>bi.c</in>
+          <in>bo.c</in>
+          <in>bv.c</in>
+          <in>csv.c</in>
+          <in>device-client.c</in>
+          <in>device.c</in>
+          <in>gw_device.c</in>
+          <in>lc.c</in>
+          <in>lo.c</in>
+          <in>lsp.c</in>
+          <in>ms-input.c</in>
+          <in>mso.c</in>
+          <in>msv.c</in>
+          <in>nc.c</in>
+          <in>osv.c</in>
+          <in>piv.c</in>
+          <in>schedule.c</in>
+          <in>trendlog.c</in>
+        </df>
+        <df name="perl">
+          <in>perl_bindings.c</in>
+        </df>
+        <df name="piface">
+          <in>device.c</in>
+          <in>main.c</in>
+        </df>
+        <df name="ptransfer">
+          <in>main.c</in>
+        </df>
+        <df name="readbdt">
+          <in>main.c</in>
+        </df>
+        <df name="readfile">
+          <in>main.c</in>
+        </df>
+        <df name="readprop">
+          <in>main.c</in>
+        </df>
+        <df name="readpropm">
+          <in>main.c</in>
+        </df>
+        <df name="readrange">
+          <in>main.c</in>
+        </df>
+        <df name="reinit">
+          <in>main.c</in>
+        </df>
+        <df name="router">
+          <in>ipmodule.c</in>
+          <in>main.c</in>
+          <in>msgqueue.c</in>
+          <in>mstpmodule.c</in>
+          <in>network_layer.c</in>
+          <in>portthread.c</in>
+        </df>
+        <df name="scov">
+          <in>main.c</in>
+        </df>
+        <df name="server">
+          <in>main.c</in>
+        </df>
+        <df name="timesync">
+          <in>main.c</in>
+        </df>
+        <df name="ucov">
+          <in>main.c</in>
+        </df>
+        <df name="uptransfer">
+          <in>main.c</in>
+        </df>
+        <df name="whohas">
+          <in>main.c</in>
+        </df>
+        <df name="whois">
+          <in>main.c</in>
+        </df>
+        <df name="whoisrouter">
+          <in>main.c</in>
+        </df>
+        <df name="writefile">
+          <in>main.c</in>
+        </df>
+        <df name="writeprop">
+          <in>main.c</in>
+        </df>
+      </df>
+      <df name="lib">
+        <in>main.cpp</in>
+      </df>
+      <df name="ports">
+        <df name="arm7">
+          <in>bip.c</in>
+        </df>
+        <df name="at91sam7s">
+          <in>ai.c</in>
+          <in>av.c</in>
+          <in>bi.c</in>
+          <in>blinker.c</in>
+          <in>bv.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>init.c</in>
+          <in>isr.c</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="atmega168">
+          <in>ai.c</in>
+          <in>apdu.c</in>
+          <in>av.c</in>
+          <in>bv.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>h_rp.c</in>
+          <in>h_whois.c</in>
+          <in>h_wp.c</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>stack.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="atmega8">
+          <in>ai.c</in>
+          <in>apdu.c</in>
+          <in>av.c</in>
+          <in>bv.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>h_rp.c</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="bdk-atxx4-mstp">
+          <df name="avrosp">
+            <in>AVRBootloader.cpp</in>
+            <in>AVRDevice.cpp</in>
+            <in>AVRInSystemProg.cpp</in>
+            <in>AVRProgrammer.cpp</in>
+            <in>CommChannel.cpp</in>
+            <in>ErrorMsg.cpp</in>
+            <in>HEXParser.cpp</in>
+            <in>JobInfo.cpp</in>
+            <in>SerialPort.cpp</in>
+            <in>Utility.cpp</in>
+            <in>XMLParser.cpp</in>
+            <in>main.cpp</in>
+          </df>
+          <df name="bootloader">
+            <in>main.c</in>
+            <in>serial.c</in>
+          </df>
+          <in>adc-block.c</in>
+          <in>adc.c</in>
+          <in>ai.c</in>
+          <in>av.c</in>
+          <in>bacnet.c</in>
+          <in>bi.c</in>
+          <in>bname.c</in>
+          <in>bo.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>eeprom.c</in>
+          <in>fuses.c</in>
+          <in>init.c</in>
+          <in>input.c</in>
+          <in>led.c</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>seeprom.c</in>
+          <in>serial.c</in>
+          <in>stack.c</in>
+          <in>test.c</in>
+          <in>timer.c</in>
+          <in>timer2.c</in>
+          <in>watchdog.c</in>
+        </df>
+        <df name="bsd">
+          <in>bip-init.c</in>
+          <in>main.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="dos">
+          <in>dlmstp.c</in>
+          <in>main.c</in>
+          <in>pchwio.c</in>
+          <in>queue.c</in>
+          <in>rs485.c</in>
+          <in>serial.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="linux">
+          <in>arcnet.c</in>
+          <in>bip-init.c</in>
+          <in>dlmstp.c</in>
+          <in>dlmstp_linux.c</in>
+          <in>ethernet.c</in>
+          <in>mstpsnap.c</in>
+          <in>rs485.c</in>
+          <in>rx_fsm.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="lwip">
+          <in>bip.c</in>
+        </df>
+        <df name="pic18f6720">
+          <in>ai.c</in>
+          <in>apdu.c</in>
+          <in>av.c</in>
+          <in>bi.c</in>
+          <in>bv.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>isr.c</in>
+          <in>main.c</in>
+          <in>mstp.c</in>
+          <in>rs485.c</in>
+        </df>
+        <df name="rtos32">
+          <in>bip-init.c</in>
+          <in>dlmstp.c</in>
+          <in>ethernet.c</in>
+          <in>init.c</in>
+          <in>main.c</in>
+          <in>mstp.c</in>
+          <in>rs485.c</in>
+        </df>
+        <df name="rx62n">
+          <in>bacnet.c</in>
+          <in>bo.c</in>
+          <in>device.c</in>
+          <in>ethernet.c</in>
+          <in>led.c</in>
+          <in>main.c</in>
+          <in>timer-hdw.c</in>
+          <in>timer.c</in>
+        </df>
+        <df name="stm32f10x">
+          <df name="CMSIS">
+            <in>core_cm3.c</in>
+          </df>
+          <df name="drivers">
+            <df name="src">
+              <in>stm32f10x_adc.c</in>
+              <in>stm32f10x_bkp.c</in>
+              <in>stm32f10x_can.c</in>
+              <in>stm32f10x_cec.c</in>
+              <in>stm32f10x_crc.c</in>
+              <in>stm32f10x_dac.c</in>
+              <in>stm32f10x_dbgmcu.c</in>
+              <in>stm32f10x_dma.c</in>
+              <in>stm32f10x_exti.c</in>
+              <in>stm32f10x_flash.c</in>
+              <in>stm32f10x_fsmc.c</in>
+              <in>stm32f10x_gpio.c</in>
+              <in>stm32f10x_i2c.c</in>
+              <in>stm32f10x_iwdg.c</in>
+              <in>stm32f10x_misc.c</in>
+              <in>stm32f10x_pwr.c</in>
+              <in>stm32f10x_rcc.c</in>
+              <in>stm32f10x_rtc.c</in>
+              <in>stm32f10x_sdio.c</in>
+              <in>stm32f10x_spi.c</in>
+              <in>stm32f10x_tim.c</in>
+              <in>stm32f10x_usart.c</in>
+              <in>stm32f10x_wwdg.c</in>
+            </df>
+          </df>
+          <in>automac.c</in>
+          <in>bacnet.c</in>
+          <in>bo.c</in>
+          <in>device.c</in>
+          <in>dlmstp.c</in>
+          <in>led.c</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>stm32f10x_it.c</in>
+          <in>system_stm32f10x.c</in>
+          <in>timer.c</in>
+          <in>timer_sys.c</in>
+        </df>
+        <df name="win32">
+          <in>bip-init.c</in>
+          <in>dlmstp-mm.c</in>
+          <in>dlmstp.c</in>
+          <in>ethernet.c</in>
+          <in>main.c</in>
+          <in>rs485.c</in>
+          <in>rx_fsm.c</in>
+          <in>timer.c</in>
+        </df>
+      </df>
+      <df name="src">
+        <in>abort.c</in>
+        <in>address.c</in>
+        <in>alarm_ack.c</in>
+        <in>apdu.c</in>
+        <in>arf.c</in>
+        <in>awf.c</in>
+        <in>bacaddr.c</in>
+        <in>bacapp.c</in>
+        <in>bacdcode.c</in>
+        <in>bacdevobjpropref.c</in>
+        <in>bacerror.c</in>
+        <in>bacint.c</in>
+        <in>bacprop.c</in>
+        <in>bacpropstates.c</in>
+        <in>bacreal.c</in>
+        <in>bacstr.c</in>
+        <in>bactext.c</in>
+        <in>bactimevalue.c</in>
+        <in>bigend.c</in>
+        <in>bip.c</in>
+        <in>bvlc.c</in>
+        <in>cov.c</in>
+        <in>crc.c</in>
+        <in>datalink.c</in>
+        <in>datetime.c</in>
+        <in>dcc.c</in>
+        <in>debug.c</in>
+        <in>event.c</in>
+        <in>fifo.c</in>
+        <in>filename.c</in>
+        <in>get_alarm_sum.c</in>
+        <in>getevent.c</in>
+        <in>iam.c</in>
+        <in>ihave.c</in>
+        <in>indtext.c</in>
+        <in>key.c</in>
+        <in>keylist.c</in>
+        <in>lso.c</in>
+        <in>memcopy.c</in>
+        <in>mstp.c</in>
+        <in>mstptext.c</in>
+        <in>npdu.c</in>
+        <in>proplist.c</in>
+        <in>ptransfer.c</in>
+        <in>rd.c</in>
+        <in>readrange.c</in>
+        <in>reject.c</in>
+        <in>ringbuf.c</in>
+        <in>rp.c</in>
+        <in>rpm.c</in>
+        <in>sbuf.c</in>
+        <in>timestamp.c</in>
+        <in>timesync.c</in>
+        <in>tsm.c</in>
+        <in>version.c</in>
+        <in>whohas.c</in>
+        <in>whois.c</in>
+        <in>wp.c</in>
+        <in>wpm.c</in>
+      </df>
+      <df name="test">
+        <in>ctest.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>.indent.pro</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-Os"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>qmake .indent.pro QMAKE_CC=${IDE_CC} QMAKE_CXX=${IDE_CXX} QMAKE_CFLAGS="-g3 -gdwarf-2" QMAKE_CXXFLAGS="-g3 -gdwarf-2"</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="demo/dcc/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/epics/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/gateway/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/dlenv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_alarm_ack.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_arf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_arf_a.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_awf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_ccov.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_cov.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_dcc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_gas_a.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_get_alarm_sum.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_getevent.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_iam.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_ihave.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_lso.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/h_npdu.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_pt.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_pt_a.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_rd.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_routed_npdu.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/h_rp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_rp_a.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_rpm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_rpm_a.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_rr.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_rr_a.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/h_ts.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_ucov.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_upt.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_whohas.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_whois.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_wp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/h_wpm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/noserv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/objects.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/s_ack_alarm.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/s_arfs.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_awfs.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_cevent.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_cov.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_dcc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_iam.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_ihave.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_lso.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/s_ptransfer.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_rd.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_readrange.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/handler/s_router.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_rp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_rpm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_ts.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_uevent.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_upt.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_whohas.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_whois.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_wp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/s_wpm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/handler/txbuf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/iamrouter/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/initrouter/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/mstpcap/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/mstpcrc/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/object/ai.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/ao.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/av.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/bacfile.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/bi.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/bo.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/bv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/csv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/device-client.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/readprop</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/device.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/gw_device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/object/lc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/lo.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/object/lsp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/ms-input.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/mso.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/msv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/nc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/osv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/piv.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/schedule.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/object/trendlog.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="demo/perl/perl_bindings.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/piface/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/piface/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/ptransfer/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/readbdt/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/readfile/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/readprop/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/readpropm/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/readrange/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/reinit/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/router/ipmodule.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/router/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/router/msgqueue.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/router/mstpmodule.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/router/network_layer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/router/portthread.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="demo/scov/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/server/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/timesync/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/ucov/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/uptransfer/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/whohas/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/whois/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/whoisrouter/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/writefile/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="demo/writeprop/main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <folder path="0/demo/dcc">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/epics">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/iamrouter">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/initrouter">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/mstpcap">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/mstpcrc">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/readbdt">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/readfile">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/readprop">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/readpropm">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/reinit">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/scov">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/server">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/timesync">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/ucov">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/uptransfer">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/whohas">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/whois">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/whoisrouter">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/writefile">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/demo/writeprop">
+        <cTool>
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <item path="lib/main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="ports/arm7/bip.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/ai.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/av.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/bi.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/blinker.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/bv.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/init.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/isr.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/at91sam7s/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/ai.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/apdu.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/av.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/bv.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/h_rp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/h_whois.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/h_wp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/stack.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega168/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/ai.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/apdu.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/av.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/bv.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/h_rp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/atmega8/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/adc-block.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/adc.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/ai.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/av.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/AVRBootloader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/AVRDevice.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/AVRInSystemProg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/AVRProgrammer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/CommChannel.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/ErrorMsg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/HEXParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/JobInfo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/SerialPort.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/Utility.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/XMLParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/avrosp/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/bacnet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/bi.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/bname.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/bo.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/bootloader/main.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/bootloader/serial.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/eeprom.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/fuses.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/init.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/input.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/led.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/seeprom.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/serial.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/stack.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/test.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/timer2.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bdk-atxx4-mstp/watchdog.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bsd/bip-init.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bsd/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/bsd/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/pchwio.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/queue.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/serial.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/dos/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/arcnet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/bip-init.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="ports/linux/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/dlmstp_linux.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/ethernet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/mstpsnap.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/rs485.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="ports/linux/rx_fsm.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/linux/timer.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="ports/lwip/bip.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/ai.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/apdu.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/av.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/bi.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/bv.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/isr.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/mstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/pic18f6720/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/bip-init.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/ethernet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/init.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/mstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rtos32/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/bacnet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/bo.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/ethernet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/led.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/timer-hdw.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/rx62n/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/CMSIS/core_cm3.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/automac.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/bacnet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/bo.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/device.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_adc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_bkp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_can.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_cec.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_crc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_dac.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_dbgmcu.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_dma.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_exti.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_flash.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_fsmc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_gpio.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_i2c.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_iwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_misc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_pwr.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_rcc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_rtc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_sdio.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_spi.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_tim.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_usart.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/drivers/src/stm32f10x_wwdg.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/led.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/stm32f10x_it.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/system_stm32f10x.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/stm32f10x/timer_sys.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/bip-init.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/dlmstp-mm.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/dlmstp.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/ethernet.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/main.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/rs485.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/rx_fsm.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="ports/win32/timer.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/abort.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/address.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/alarm_ack.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/apdu.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/arf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/awf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacaddr.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacapp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacdcode.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacdevobjpropref.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacerror.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacint.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacprop.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacpropstates.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacreal.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bacstr.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bactext.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bactimevalue.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bigend.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bip.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/bvlc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/cov.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/crc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/datalink.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/datetime.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/dcc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/debug.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/event.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/fifo.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/filename.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/get_alarm_sum.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/getevent.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/iam.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ihave.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/indtext.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/key.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/keylist.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/lso.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/memcopy.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mstp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/mstptext.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/npdu.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/proplist.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ptransfer.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/rd.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/readrange.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/reject.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ringbuf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>demo/mstpcap</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/rp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/rpm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/sbuf.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/timestamp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/timesync.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/tsm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/version.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/whohas.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/whois.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/wp.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/wpm.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>ports/linux</pElem>
+            <pElem>demo/object</pElem>
+            <pElem>demo/handler</pElem>
+            <pElem>include</pElem>
+            <pElem>lib</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>BACAPP_ALL</Elem>
+            <Elem>BACDL_BIP=1</Elem>
+            <Elem>BACFILE</Elem>
+            <Elem>BACNET_PROPERTY_LISTS=1</Elem>
+            <Elem>BBMD_ENABLED=1</Elem>
+            <Elem>INTRINSIC_REPORTING</Elem>
+            <Elem>PRINT_ENABLED=1</Elem>
+            <Elem>WEAK_FUNC=</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="test/ctest.c" ex="false" tool="0" flavor2="2">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
